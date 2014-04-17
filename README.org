@@ -7,5 +7,5 @@ project and lives under the same license.
 Here are examples of vignettes that are using this style:
 
 - [[http://bioconductor.org/packages/devel/bioc/vignettes/Rariant/inst/doc/Rariant-vignette.html][Rariant]]
-- [[http://bioconductor.org/packages/devel/bioc/vignettes/Rariant/inst/doc/SomaticSignatures-vignette.html][SomaticSignatures]]
+- [[http://bioconductor.org/packages/devel/bioc/vignettes/SomaticSignatures/inst/doc/SomaticSignatures-vignette.html][SomaticSignatures]]
 
