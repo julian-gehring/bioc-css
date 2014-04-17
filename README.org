@@ -1,7 +1,7 @@
 #+TITLE: Bioconductor CSS
 
 This is an idea for a CSS stylesheet in line with the Bioconductor design (see
-also the =[[http://bioconductor.org/packages/release/bioc/html/BiocStyle.html][BiocStyle]]= package).  It is based on the stylesheet of the [[hhttp://orgmode.org/worg/][worg]]
+also the [[http://bioconductor.org/packages/release/bioc/html/BiocStyle.html][BiocStyle]] package).  It is based on the stylesheet of the [[hhttp://orgmode.org/worg/][worg]]
 project and lives under the same license.
 
 
