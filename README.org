@@ -4,4 +4,8 @@ This is an idea for a CSS stylesheet in line with the Bioconductor design (see
 also the =[[http://bioconductor.org/packages/release/bioc/html/BiocStyle.html][BiocStyle]]= package).  It is based on the stylesheet of the [[hhttp://orgmode.org/worg/][worg]]
 project and lives under the same license.
 
+Here are examples of vignettes that are using this style:
+
+- [[http://bioconductor.org/packages/devel/bioc/vignettes/Rariant/inst/doc/Rariant-vignette.html][Rariant]]
+- [[http://bioconductor.org/packages/devel/bioc/vignettes/Rariant/inst/doc/SomaticSignatures-vignette.html][SomaticSignatures]]
 
