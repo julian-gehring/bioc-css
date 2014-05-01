@@ -17,6 +17,8 @@ Here are examples of vignettes that are based on this style:
   
 * Techniques
 
+** Embed CSS stylesheet in vignette
+
 In order to include a CSS stylesheet automatically in a knitr HTML vignette, add
 this code to the vignette:
 
