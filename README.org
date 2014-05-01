@@ -1,11 +1,33 @@
-#+TITLE: Bioconductor CSS
+#+TITLE: Techniques and Styles for HTML Vignettes
 
-This is an idea for a CSS stylesheet in line with the Bioconductor design (see
-also the [[http://bioconductor.org/packages/release/bioc/html/BiocStyle.html][BiocStyle]] package).  It is based on the stylesheet of the [[hhttp://orgmode.org/worg/][worg]]
-project and lives under the same license.
 
-Here are examples of vignettes that are using this style:
+* Styles
+
+The =bioc.css= is a CSS stylesheet for HTML vignettes.  It has been designed to
+be in line with the Bioconductor design for PDF vignettes (see also the
+[[http://bioconductor.org/packages/release/bioc/html/BiocStyle.html][BiocStyle]] package).  The CSS code is based on the stylesheet of the [[hhttp://orgmode.org/worg/][worg]] project
+and lives under the same license.
+
+Here are examples of vignettes that are based on this style:
 
 - [[http://bioconductor.org/packages/devel/bioc/vignettes/Rariant/inst/doc/Rariant-vignette.html][Rariant]]
 - [[http://bioconductor.org/packages/devel/bioc/vignettes/SomaticSignatures/inst/doc/SomaticSignatures-vignette.html][SomaticSignatures]]
+- [[http://master.bioconductor.org/packages/devel/bioc/vignettes/h5vc/inst/doc/h5vc.tour.html][h5vc]]
+
+  
+* Techniques
+
+In order to include a CSS stylesheet automatically in a knitr HTML vignette, add
+this code to the vignette:
+
+#+BEGIN_SRC R
+  library(knitr)
+
+  ## Import the style from CSS file 'css_path' 
+  style = paste(readLines(css_path), collapse = "\n")
+
+  opts_knit$set(self.contained = TRUE,
+                upload.fun = image_uri, ## optional
+                header = c(highlight = style))
+#+END_SRC
 
